@@ -9,6 +9,6 @@ You can change the value for the variable "ticker_symbol" in stock_volatility_pr
 Below are some ticker/symbols of known companies in NYSE:
 NVDA (NVIDIA Corporation), INTC (Intel Corporation), TSLA (Tesla, Inc.), AAPL (Apple Inc.), AMZN (Amazon.com, Inc.), DELL (Dell Technologies Inc.)
 
-Visit the app: https://nicknaul.github.io/new-york-stocks-volatility-prediction/
+Visit the app: https://nicknaul.github.io/New-York-Stocks-Volatility-Prediction/
 
 Or https://nicknaul.github.io/myportfolio/

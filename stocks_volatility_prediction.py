@@ -43,11 +43,11 @@ def wrangle_data(ticker,n_observations):
 
 
 def forecast_(c,model):
-        
-        # Generate 10-day volatility forecast
-        prediction = model.forecast(horizon=10, reindex=False).variance
-        prediction_formatted = clean_prediction(prediction)
-        return prediction_formatted
+       
+    # Generate 10-day volatility forecast
+    prediction = model.forecast(horizon=10, reindex=False).variance
+    prediction_formatted = clean_prediction(prediction)
+    return prediction_formatted
     
 
 def clean_prediction(prediction):

@@ -43,29 +43,12 @@ def wrangle_data(ticker,n_observations):
 
 
 def forecast_(c,model):
-
-    if c==1:
-        # Generate 5-day volatility forecast
-        prediction = model.forecast(horizon=5, reindex=False).variance ** 0.5
-        print(prediction)
-
-        # Calculate forecast start date
-        start = prediction.index[0] + pd.DateOffset(days=1)
-
-        # Create date range
-        prediction_dates = pd.bdate_range(start=start, periods=prediction.shape[1])
-
-        # Create prediction index labels, ISO 8601 format
-        prediction_index = [d.isoformat() for d in prediction_dates]
-        return prediction_index[:3]
-
-    elif c==2:
+        
+        # Generate 10-day volatility forecast
         prediction = model.forecast(horizon=10, reindex=False).variance
         prediction_formatted = clean_prediction(prediction)
-
-
-
         return prediction_formatted
+    
 
 def clean_prediction(prediction):
 

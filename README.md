@@ -12,4 +12,6 @@ NVDA (NVIDIA Corporation), INTC (Intel Corporation), TSLA (Tesla, Inc.), AAPL (A
 
 Visit the app: https://colab.research.google.com/drive/1jkz0EkxxFCihm-zbm76SmRK41HHMOTO4#scrollTo=zCZPQrfwkrvb&uniqifier=2
 
+https://nicknaul.github.io/New-York-Stocks-Volatility-Prediction/
+
 Or https://nicknaul.github.io/myportfolio/
